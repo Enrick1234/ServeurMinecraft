@@ -12,6 +12,7 @@ fi
 sudo apt update
 sudo apt upgrade
 sudo apt-get install wget
+sudo ufw allow 25565
 sudo apt-get install default-jdk
 sudo apt install openjdk-16-jdk
 #sudo add-apt-repository ppa:linuxuprising/java
