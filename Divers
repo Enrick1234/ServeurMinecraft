@@ -8,3 +8,43 @@ format JSON a respecter pour ops.JSON
     "level": 4
   }
 ] 
+
+
+
+##Service 
+
+
+```
+[Unit]
+Description=Do a backup of server Minecraft
+
+[Service]
+ExecStart=/usr/bin/bash /srv/save/Minecraftsave.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
+```
+
+##Timer
+
+```
+[Unit]
+Description=Lance Minecraft.service
+Requires=Minecraft.service
+
+[Timer]
+Unit=Minecraft.service
+OnCalendar=minutely
+
+[Install]
+WantedBy=timers.target
+```
+
+script
+
+```
+#!/bin/bash
+
+#rsync -av --delete -e ssh /home/enrick/Documents/Minecraft enrick@192.168.56.117:/home/enrick/Documents
+```
