@@ -1,3 +1,0 @@
-bash <(curl -Ss https://my-netdata.io/kickstart.sh) all
-
-http://IP-DE-VOTRE-SRV:19999 Pour vous connecter a netdata et voir les metrics du serveur 

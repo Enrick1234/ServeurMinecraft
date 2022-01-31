@@ -1,0 +1,2 @@
+Backup manuelle a distance avec ssh :
+rsync -av --delete -e ssh /Directory1/ geek@192.168.235.137:/Directory2/ 
