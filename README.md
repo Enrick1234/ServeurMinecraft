@@ -8,7 +8,7 @@ Pour installer un serveur minecraft il vous faut :
 - Deux pcs ou machines qui vous servira d'hébergeurs sous Ubuntu 
 - Ces machines devront avoir 2048 Mb de RAM et 
 - Mettre a jour ces pcs (machines) avec les commandes suivantes : ```sudo apt update``` et `sudo apt upgrade`
-- Installer ssh avec la commande `sudo apt install opensshd-server`
+- Installer ssh avec la commande `sudo apt install openssh-server`
 - Installer wget avec la commande `sudo apt-get install wget`
 - Installer Java Development Kit ainsi que Open Java Development Kit avec les commandes `sudo apt install default-jdk` et `sudo apt install openjdk-16-jdk`
 
