@@ -9,8 +9,6 @@ locdir="/home/$curentuser/Documents/$directoryname"
 if [[ ! -d $locdir ]]; then
 mkdir $locdir
 fi
-sudo apt update
-sudo apt upgrade
 sudo apt-get install wget
 sudo ufw allow 25565
 sudo apt-get install default-jdk
