@@ -1,4 +1,4 @@
-# Scripts !
+# Scripts ! (LISEZ MOI !)
 
 ## Le script du lancement du serveur :
 
