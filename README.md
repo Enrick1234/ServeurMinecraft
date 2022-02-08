@@ -2,7 +2,7 @@
 
 ## Installer un serveur Minecraft
 
-Si vous voulez vous avez un script pour installer et lancer le serveur **[ici](https://github.com/Enrick1234/ServeurMinecraft/blob/main/lancementserv)**
+Si vous voulez vous avez un script pour installer et lancer le serveur **[ici](https://github.com/Enrick1234/ServeurMinecraft/blob/main/script/lancementserv)**
 
 ## Prérequis : 
 
