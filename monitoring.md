@@ -10,7 +10,7 @@ Pour monitorer avec Netdata il faut :
 
 ## Installer Netdata
 
-Pour installer Netdata il faut faire les commandes suivantes `curl -s https://packagecloud.io/install/repositories/netdata/netdata/script.deb.sh | sudo bash` ainsi que `sudo apt install netdata`
+Prenez le script qui se trouve #script/monitoring.sh
 
 ## Configurer Netdata
 

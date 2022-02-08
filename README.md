@@ -2,10 +2,12 @@
 
 ## Installer un serveur Minecraft
 
+Si vous voulez vous avez un script pour installer et lancer le serveur **[ici](https://github.com/Enrick1234/ServeurMinecraft/blob/main/lancementserv)**
+
 ## Prérequis : 
 
 Pour installer un serveur minecraft il vous faut :
-- Deux pcs ou machines qui vous servira d'hébergeurs sous Ubuntu 
+- Deux pcs ou machines qui vous servira d'hébergeurs sous Ubuntu (une machine qui servira de serveur et une autre de backup)
 - Ces machines devront avoir 2048 Mb de RAM et 
 - Mettre a jour ces pcs (machines) avec les commandes suivantes : ```sudo apt update``` et `sudo apt upgrade`
 - Installer ssh avec la commande `sudo apt install openssh-server`

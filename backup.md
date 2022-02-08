@@ -7,13 +7,8 @@ Voici les prérequis pour avoir une machine de sauvegarde fonctionnel :
 - Sur votre machine "serveur" :
     - Créer un dossier "save" dans ``/srv/`` avec `sudo mkdir /srv/save`
     - Dans ce dossier "save", céer un fichier "Minecraftsave.sh" avec `sudo nano Minecraftsave.sh`
-    - Dans ``Minecraftsave.sh`` écrire les lignes suivantes : 
-        
-        ```
-        #!/bin/bash
-
-        rsync -av --delete -e ssh /home/<USER>/Documents/Minecraft <USER BACKUP>@<IP USER BACKUP>:/home/<USER BACKUP>/backup
-        ```
+    - Dans ``Minecraftsave.sh`` écrire les lignes suivantes qui se trouvent dans *[script/Minecraftsave.sh](https://github.com/Enrick1234/ServeurMinecraft/blob/main/Minecraftsave.sh)*
+    
     - Créer un utilisateur "Backup"
 
 - Sur votre machine "backup" :
