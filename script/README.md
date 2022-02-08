@@ -7,3 +7,7 @@ Il se trouve juste **[ici](https://github.com/Enrick1234/ServeurMinecraft/blob/m
 ## Le script pour sauvegarder les données :
 
 ### Explication : 
+
+Veuillez changer les <**USER BACKUP**> par l'**user** de votre machine "backup" puis le <**IP BACKUP**> par l'IP de votre machine "backup".
+
+
