@@ -25,4 +25,4 @@ Ainsi le serveur est prêt a être lancé avec la commande `java -Xmx1024M -Xms1
 
 Vous pouvez ainsi jouer a Minecraft avec la version 1.17 du jeu.
 
-Passez ensuite à la [backup](https://github.com/Enrick1234/ServeurMinecraft/blob/main/backup.md)
+Passez ensuite à la [backup](https://github.com/Enrick1234/ServeurMinecraft/blob/main/backup.md) ou au [monitoring] de votre serveur. 
