@@ -11,7 +11,7 @@ Faites un ``ssh-keygen`` ainsi que `ssh-copy-id <USER BACKUP>@<IP USER BACKUP>`.
     - Dans ce dossier `/srv/save`, céer un fichier "Minecraftsave.sh" avec `sudo nano /srv/svae/Minecraftsave.sh`
     - Dans ``Minecraftsave.sh`` écrire les lignes suivantes qui se trouvent dans [script/Minecraftsave.sh](https://github.com/Enrick1234/ServeurMinecraft/blob/main/script/Minecraftsave.sh)
     
-    - Créer un utilisateur "Backup"
+    - Créer un utilisateur "Backup" avec `sudo useradd -m Backup` ajouter lui un mot de passe `passwd Backup`
 
 - Sur votre machine "backup" :
     - Créer un fichier "backup" avec `mkdir backup`
