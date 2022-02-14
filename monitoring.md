@@ -5,7 +5,7 @@
 Pour monitorer avec Netdata il faut : 
 - Installer ``curl`` avec `sudo apt install curl`
 
-- Autoriser le port 19999 avec `sudo afw allow 19999/tcp`
+- Autoriser le port 19999 avec `sudo ufw allow 19999/tcp`
 
 
 ## Installer Netdata
