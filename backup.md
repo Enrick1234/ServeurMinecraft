@@ -2,7 +2,9 @@
 
 ## Prérequis 
 
-Voici les prérequis pour avoir une machine de sauvegarde fonctionnel : 
+Voici les prérequis pour avoir une machine de sauvegarde fonctionnel :
+
+Faites un ``ssh-keygen`` ainsi que `ssh-copy-id <USER BACKUP>@<IP USER BACKUP>`. Puis vérifier que vous pouvez vous connecter sans mot de passe.
 
 - Sur votre machine "serveur" :
     - Créer un dossier "save" dans ``/srv/`` avec `sudo mkdir /srv/save`
@@ -12,7 +14,7 @@ Voici les prérequis pour avoir une machine de sauvegarde fonctionnel :
     - Créer un utilisateur "Backup"
 
 - Sur votre machine "backup" :
-    - Créer un fichier "backup" avec `sudo mkdir backup`
+    - Créer un fichier "backup" avec `mkdir backup`
 
 
 ## Création d'un service 
