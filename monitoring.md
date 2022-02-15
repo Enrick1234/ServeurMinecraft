@@ -10,7 +10,7 @@ Pour monitorer avec Netdata il faut :
 
 ## Installer Netdata
 
-Prenez le script qui se trouve [script/monitoring.sh](https://github.com/Enrick1234/ServeurMinecraft/blob/main/script/monitoring.sh)
+Prenez le script qui se trouve dans le dossier script et qui s'appelle monitoring.sh. [Cliquez ici](https://github.com/Enrick1234/ServeurMinecraft/blob/main/script/monitoring.sh) pour que cela soit plus rapide. 
 
 ## Configurer Netdata
 
